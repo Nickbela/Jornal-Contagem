@@ -43,7 +43,7 @@ h2{
 }
 
 input{
-    float: right;
+    float: right;;
     border-radius: 50px;
     margin-right: 150px;
     margin-left: 1000px;
@@ -68,9 +68,9 @@ input:focus{
 }
 
 .antesnoti2{
-    padding-top: 1000px;
+    padding-top: 700px;
     text-align: center;
-    font-size: 80px;
+    font-size: 50px;
 }
 
 .antesnoti{
