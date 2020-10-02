@@ -67,8 +67,14 @@ input:focus{
 
 }
 
-.antesnoti{
+.antesnoti2{
     padding-top: 700px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.antesnoti{
+    padding-top: 200px;
     text-align: center;
     font-size: 50px;
 }
