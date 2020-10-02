@@ -1,0 +1,100 @@
+h1{
+    font-family: 'Abril Fatface', cursive;  
+    padding-top: 0px;
+    font-size: 60px;
+    text-align: left;
+    background: linear-gradient( 0, #120c56, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#nome:visited{
+    color: black;
+}
+
+#nome:hover{
+    text-decoration: none;
+}
+
+.container{
+    width: 480px;
+    height: 130px;
+    overflow: hidden;
+}
+
+.stars{
+    position: relative;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    box-shadow: 50px 30px white,
+    140px 30px white,
+    80px  10px white,
+    300px 30px white,
+    250px 10px white,
+    200px 50px white,
+    390px 50px white,
+    460px 20px white;
+    animation: anim-stars 10s linear infinite;
+}
+
+@keyframes anim-stars{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-150px);
+    }
+}
+
+.stars::after{
+    content: " ";
+    position: absolute;
+    top:150px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    box-shadow:  50px 30px white,
+    140px 40px white,
+    80px  10px white,
+    300px 30px white,
+    250px 10px white,
+    200px 80px white,
+    390px 50px white,
+    460px 70px white;
+}
+
+.stars2{
+    position: relative;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  box-shadow: 50px 30px white,
+  140px 40px white,
+  80px  10px white,
+  300px 30px white,
+  250px 10px white,
+  200px 80px white,
+  390px 50px white,
+  460px 70px white;
+  animation: anim-stars 20s linear infinite;
+}
+
+.stars2::after{
+    content: " ";
+    position: absolute;
+    top: 130px;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+  box-shadow: 15px 15px white,
+  50px 35px white,
+  75px  50px white,
+  150px  20px white,
+  330px 50px white,
+  200px 10px white,
+  260px 60px white,
+  400px 20px white,
+  450px 80px white;
+}
+

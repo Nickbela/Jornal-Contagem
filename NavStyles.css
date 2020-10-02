@@ -1,0 +1,110 @@
+
+.imgtopicos{
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+    border: white;
+
+}
+
+#imgpolitica{
+    border-radius: 20px;
+    width: 525px;
+    height: 425px;
+    margin-right: 20px;
+
+}
+
+#imgpolitica:hover{
+    border: 2px solid black;
+    transform: scale(1.10);
+    transition: all 0.5s ease-in-out;
+    box-shadow: 2px 2px 2px 2px rgb(255, 251, 251);
+}
+
+.imgtopicos:hover{
+    border: 2px solid black;
+    transform: scale(1.10);
+    transition: all 0.5s ease-in-out;
+    box-shadow: 2px 2px 2px 2px rgb(255, 251, 251);
+}
+
+#links{
+padding-top: 200px;
+}
+
+#links ul li a{
+    position: relative;
+    float: left;
+}
+
+#links ul li a span{
+    display: block;
+    position: absolute;
+    border-radius:5px;
+    opacity: 0;
+}
+
+#links ul li:hover span{
+    opacity: 100%;
+    padding-left: 20px;
+    color: white;
+    font-size: 60px;
+    text-shadow: 2px 1px black;
+    animation: Topicos 1500ms linear 0s;}
+
+@keyframes Topicos{
+                0%{
+                    opacity: 0;
+                }
+                10%{
+                    opacity: 10%;
+                }
+                20%{
+                    opacity: 20%;
+                }
+                30%{
+                    opacity: 30%;
+                }
+                40%{
+                    opacity:40%;
+                }
+                50%{
+                    opacity: 50%;
+                }
+                60%{
+                    opacity: 60%;
+                }
+                70%{
+                    opacity: 70%;
+                }
+                80%{
+                    opacity: 80%;
+                }
+                90%{
+                    opacity: 90%;
+                }
+                100%{
+                    opacity: 100%;
+                }
+}
+
+ul{
+    list-style-type: none;
+    margin: 0ex;
+    border: 0ex;
+    outline: none;
+}
+
+.topico{
+    display: inline-block;
+    position: relative;
+    float: left;
+  }
+  
+  .topico figcaption{
+    position: absolute;
+    top:3px;
+
+}
+
